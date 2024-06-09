@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -210,12 +212,19 @@ footer{
 
 }
 
-<<<<<<< HEAD
 #splitter{
   display: flex;
   justify-content: center;
 }
-=======
+/* sobre nós */
+#titulo{
+    background-color: #282317;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+
+}
+
 #banner{
     display: block;
     margin: 0 auto;
@@ -259,8 +268,8 @@ html, body {
     letter-spacing: 1.3px;
     font-weight: 700;
     color: #ffffff;
-    background: #85754E;
-  background: linear-gradient(90deg, rgb(39, 35, 23) 0%, rgb(110, 70, 63) 100%);
+    background: #362927;
+    background: linear-gradient(90deg, rgb(75, 47, 41) 0%, rgb(110, 70, 63) 100%);
     border: none;
     border-radius: 1000px;
     box-shadow: 12px 12px 24px rgba(83, 62, 58, 0.64);
@@ -276,7 +285,7 @@ html, body {
     border-radius: 1000px;
     min-width: calc(300px + 12px);
     min-height: calc(60px + 12px);
-    border: 6px solid #85754E;
+    border: 6px solid #241212;
     box-shadow: 0 0 60px rgba(78, 46, 46, 0.64);
     position: absolute;
     top: 50%;
@@ -287,7 +296,7 @@ html, body {
   }
   
   .button:hover, .button:focus {
-    color: #85754E;
+    color: #441e1e;
     transform: translateY(-6px);
   }
   
@@ -299,7 +308,7 @@ html, body {
     content: '';
     width: 30px; height: 30px;
     border-radius: 100%;
-    border: 6px solid #85754E;
+    border: 6px solid #381a1a;
     position: absolute;
     z-index: -1;
     top: 50%;
@@ -328,4 +337,101 @@ html, body {
 
 
 
->>>>>>> 166d017575fe3f0814d83094e5299b4c939ea63e
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #41241dbe
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #4b2e2e;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px
+}
+
+.areaLogin img {
+    width: 420px;
+}
+
+.formLogin h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+}
+
+.formLogin p {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+
+.formLogin input:focus {
+    border: 1px solid #50332c;
+}
+
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.formLogin a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #555;
+    transition: all linear 160ms;
+}
+
+.formLogin a:hover {
+    color: #241b18;
+}
+
+.btn {
+    background-color: #311f1c;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #3f2d29;
+
+}
