@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="css/stylePag.css">
+</head>
+<body>       
+              <div class="wrap">
+        <div class="checkout-container">
+            <h2>Finalize seu pagamento aqui!</h2>
+            <div class="steps">
+                <div class="step completed">Pedido</div>
+                <div class="step completed">Confirmação</div>
+                <div class="step active">Pagamento</div>
+                <div class="step">Finalizar</div>
+            </div>
+            <form id="payment-form">
+                <div class="payment-options">
+                    <label>
+                        <input type="radio" name="payment-method" value="credit-card" checked>
+                        <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa">
+                        <img src="https://img.icons8.com/color/48/000000/mastercard.png" alt="MasterCard">
+                        Pague com cartão de credito
+                    </label>
+                    <label>
+                        <input type="radio" name="payment-method" value="paypal">
+                        <img src="https://img.icons8.com/color/48/000000/paypal.png" alt="PayPal">
+                        Pague com PayPal
+                    </label>
+                </div>
+                <div class="credit-card-info">
+                    <div class="input-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="card-number">Número do cartão</label>
+                        <input type="text" id="card-number" name="card-number" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="valid-date">Data de validade</label>
+                        <input type="text" id="valid-date" name="valid-date" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="cvv">CVV / CVC</label>
+                        <input type="text" id="cvv" name="cvv" required>
+                    </div>
+                </div>
+                <button type="submit" class="button">Pagar</button>
+                <a href="index.html">Volte a página inicial.</a>
+            </form>
+        </div>
+    </div>
+
+  
+
+    <script src="js/script.js"></script>
+</body>
+</html>
